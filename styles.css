@@ -1,0 +1,43 @@
+body {
+    overflow: hidden;
+}
+
+.rainbow-aids {
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,218,0,1) 25%, rgba(0,255,38,1) 50%, rgba(0,1,255,1) 75%, rgba(255,0,219,1) 100%); 
+}
+
+.darkness {
+    background: rgb(0,0,0);
+}
+
+.huge {
+    font-size: 200;
+}
+
+.arrow-rotate {
+    transform: rotate(-90deg);
+}
+
+#explosion {
+    display: none;
+}
+
+#puppet {
+    display: none;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    z-index: 5;
+    top: 0;
+    transition: 0s;
+}
+
+.puppet-transform {
+    transform: translate(0%, 100%);
+}
+
+a {
+    text-decoration: none !important;
+    color: white !important;
+}
