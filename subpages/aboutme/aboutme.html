@@ -8,30 +8,38 @@
 </head>
 <body>
     <div class="loading-screen" id="loading-screen">
-        <img src="/images/loadingscreen.jpg">
+        <img src="../../images/loadingscreen.jpg">
         <div class="loading-bar"></div>
     </div>
     <div class="desktop" id="desktop">
         <div class="grid">
             <button class="desktop-btn" id="recycle-bin">
-                <img src="/images/recycle_bin_empty-5.png">
+                <img src="../../images/recycle_bin_empty-5.png">
                 <p>Recycling Bin</p>
             </button>
             <button class="desktop-btn" id="my-pc">
-                <img src="/images/computer_explorer_cool-0.png">
+                <img src="../../images/computer_explorer_cool-0.png">
                 <p>My Computer</p>
             </button>
             <button class="desktop-btn" id="about-me-txt">
-                <img src="/images/notepad-2.png">
+                <img src="../../images/notepad-2.png">
                 <p>About Me.txt</p>
             </button>
+            <button class="desktop-btn" id="doom">
+                <img src="../../images/Doom-1-icon.png">
+                <p>DOOM</p>
+            </button>
+            <button class="desktop-btn" id="goku">
+                <img src="../../images/windows_movie-0.png">
+                <p>goku todas sus transformaciones del 1 al 20.wmv</p>
+            </button>
         </div>
-        <div class="text-document">
-            <div class="document-top">
-                <img src="/images/notepad-2.png">
+        <div class="window invisible" id="about-me-txt-window">
+            <div class="window-top">
+                <img src="../../images/notepad-2.png">
                 <p>About Me - Notepad</p>
-                <div class="document-buttons">
-                    <button>_</button>
+                <div class="window-buttons">
+                    <button>—</button>
                     <button>[]</button>
                     <button>X</button>
                 </div>
@@ -42,16 +50,105 @@
                 <button>Search</button>
                 <button>Help</button>
             </div>
-            <textarea class="document-textbox">
-
-            </textarea>
+            <div class="document-textbox">
+                <p>===================================</p>
+                <pre>     _   _                 _                 </pre>
+                <pre>    /_\ | |__   ___  _   _| |_    /\/\   ___    </pre>
+                <pre>   //_\\| '_ \ / _ \| | | | __|  /    \ / _ \    </pre>
+                <pre>  /  _  \ |_) | (_) | |_| | |_  / /\/\ \  __/    </pre>
+                <pre>  \_/ \_/_.__/ \___/ \__,_|\__| \/    \/\___| </pre>
+                <p>===================================</p>
+                <p>Name: Ignas Babenskas</p>
+                <p>Age: 18</p>
+                <p>DOB: 2006/03/25</p>
+                <p>City: Kaunas</p>
+                <p>===================================</p>
+                <p>I am a mostly self-taught programmer who specializes in <br></p>
+                <p>Web Design and JavaScript, some other languages I know are</p>
+                <p>LUA, Python & Java, I began programming by making games on</p>
+                <p>Roblox and creating simple plugins for Minecraft Servers</p>
+                <p>===================================</p>
+                <p>Education:</p>
+                <p>2021-2023</p>
+                <p>Kėdainiu šviesioji gimnažija</p>
+                <p>2023-Current</p>
+                <p>Kauno Informacinių Technologijų Mokykla</p>
+                <p>===================================</p>
+                <p>Work Experience:</p>
+                <p>2023-2023</p>
+                <p>Senukai</p>
+                <p>===================================</p>
+            </div>
         </div>
-        <div class="taskbar">
-            <button class="start-button">
-                <img src="/images/icon.png">
-                <p>START</p>
-            </button>
+    </div>
+    <div class="window invisible" id="doom-window">
+        <div class="window-top">
+            <img src="../../images/Doom-1-icon.png">
+            <p>DOOM</p>
+            <div class="window-buttons">
+                <button>—</button>
+                <button>[]</button>
+                <button>X</button>
+            </div>
         </div>
+        <div class="command-buttons">
+            <button>File</button>
+            <button>Edit</button>
+            <button>Search</button>
+            <button>Help</button>
+        </div>
+        <div class="document-textbox">
+            <iframe id="doom-iframe">
+    
+            </iframe>
+        </div>
+    </div>
+    <div class="window invisible" id="trash-window">
+        <div class="window-top">
+            <img src="../../images/recycle_bin_empty-5.png">
+            <p>Recycling Bin</p>
+            <div class="window-buttons">
+                <button>—</button>
+                <button>[]</button>
+                <button>X</button>
+            </div>
+        </div>
+        <div class="command-buttons">
+            <button>File</button>
+            <button>Edit</button>
+            <button>Search</button>
+            <button>Help</button>
+        </div>
+        <div class="document-textbox">
+            <img src="../../images/midpiece.jpg">
+        </div>
+    </div>
+    <div class="window invisible" id="goku-window">
+        <div class="window-top">
+            <img src="../../images/windows_movie-0.png">
+            <p>goku todas sus transformaciones del 1 al 20.wmv - Windows Movie Player</p>
+            <div class="window-buttons">
+                <button>—</button>
+                <button>[]</button>
+                <button>X</button>
+            </div>
+        </div>
+        <div class="command-buttons">
+            <button>File</button>
+            <button>Edit</button>
+            <button>Search</button>
+            <button>Help</button>
+        </div>
+        <div class="document-textbox">
+            <video controls>
+                <source src="../../images/goku.mp4" type="video/mp4" />
+            </video>
+        </div>
+    </div>
+    <div class="taskbar">
+        <a class="start-button" href="../../index.html">
+            <span><img src="../../images/icon.png">Start</span>
+        </a>
     </div>
     <script src="script.js"></script>
 </body>

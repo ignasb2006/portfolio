@@ -23,6 +23,14 @@ body {
     display: none;
 }
 
+#pearto {
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 44%
+
+}
+
 #puppet {
     display: none;
     overflow: hidden;
